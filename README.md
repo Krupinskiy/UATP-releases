@@ -38,9 +38,9 @@ Go to the [**Releases**](https://github.com/Krupinskiy/UATP-releases/releases) p
 
 | OS | File |
 |----|------|
-| Windows | `UATP-Setup-1.0.0.exe` |
-| macOS | `UATP-1.0.0.dmg` |
-| Linux | `UATP-1.0.0.AppImage` |
+| Windows | [UATP-Setup-1.0.0.exe](https://github.com/Krupinskiy/UATP-releases/releases/tag/v1.0.0) (~80 MB) |
+| macOS | Coming soon |
+| Linux | Coming soon |
 
 ---
 
