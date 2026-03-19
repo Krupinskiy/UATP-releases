@@ -101,4 +101,5 @@ Found a bug or have an idea? Open an issue:
 
 ## License
 
-UATP is free to use. The source code is not publicly available.
+© 2026 Sergey Krupinskiy. Free to use, all rights reserved.
+See [LICENSE](LICENSE) for details.
