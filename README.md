@@ -26,7 +26,6 @@
 - 📥 **Postman Import** — Convert Postman collections to UATP templates with one click
 - 🌙 **Dark Theme** — Full dark/light mode with system theme detection
 - 📤 **Export** — Download templates as YAML, load test results as CSV, and test reports
-- 🔔 **Notifications** — Webhook integrations for Slack, Discord, Telegram, and generic endpoints
 - ♿ **Accessibility Audits** — Automated WCAG compliance checks with violation counting
 - 🌍 **Internationalization** — English and Russian UI
 - 🖥️ **Cross-Platform** — Native desktop app for Windows, macOS, and Linux
@@ -82,7 +81,6 @@ Go to the [**Releases**](https://github.com/Krupinskiy/UATP-releases/releases) p
 
 **Additional:**
 - A PostgreSQL 16 database (local or hosted, e.g. [Supabase](https://supabase.com))
-- Redis 7 (for job queue processing)
 
 ---
 
