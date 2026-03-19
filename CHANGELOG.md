@@ -10,7 +10,7 @@ All notable changes to UATP will be documented in this file.
 - **500+ ready-to-use YAML templates** across three categories:
   - **API Testing (203 templates):** CRUD & REST, Authentication (JWT, OAuth2, API keys), Pagination (offset/cursor), Error Handling (4xx/5xx codes), Caching (ETags, Cache-Control), Content Negotiation, WebSocket (connect/disconnect/echo/binary/auth), Webhooks (delivery, retry, signatures), GraphQL (queries, mutations, fragments, introspection), File Operations (upload/download/validation), Security (SQL injection, XSS, XXE, path traversal, CORS, HSTS, CSP), Performance (response time assertions), Monitoring (health checks, readiness/liveness probes), Idempotency (keys, deduplication), Batch Operations (bulk CRUD), Filters & Search (nested fields, date ranges), Versioning (header/query-param), E2E Flows (register-login-profile, order lifecycle)
   - **Web Testing (251 templates):** Accessibility (WCAG audits, heading structure, ARIA, keyboard nav, color contrast), Forms & Input (validation, masking, multi-step wizards, autocomplete, date pickers, file uploads), UI Components (modals, dropdowns, tabs, tables with sorting/pagination, carousels, tooltips, accordions, infinite scroll, lazy loading), E-Commerce (cart, checkout, wishlist, product compare, promo codes, order tracking), Security (XSS prevention, CSRF tokens, session timeout, clickjacking), Performance & SEO (Web Vitals — LCP, FID, CLS, page load time, meta tags, image optimization), Responsive & Localization (mobile/tablet viewports, RTL layout, language switching, GDPR consent), Social Features (login integration, profiles, follow/like, share, comments, activity feeds), Content (video players, image galleries, PDFs, markdown, iframes), Dashboard (KPI cards, charts, real-time updates, data tables, export), Navigation (menus, breadcrumbs, sidebar collapse, sticky headers)
-  - **Load Testing (45 templates):** Smoke (health, auth, general), Load (CRUD, auth refresh, pagination, search, file ops, WebSocket), Stress (general, auth, database, file storage), Spike (search, payment, file upload, homepage), Soak (auth sessions, database reads), Breakpoint (CRUD, create operations), Web Load (login, registration, forms, dashboard, checkout), Mixed (WebSocket, user journeys)
+  - **Load Testing (46 templates):** Smoke (health, auth, general), Load (CRUD, auth refresh, pagination, search, file ops, WebSocket), Stress (general, auth, database, file storage), Spike (search, payment, file upload, homepage), Soak (auth sessions, database reads), Breakpoint (CRUD, create operations), Web Load (login, registration, forms, dashboard, checkout), Mixed (WebSocket, user journeys)
 
 #### Web Testing Engine (Playwright)
 - 25+ browser actions: open-page, fill, click, hover, select, wait, screenshot, scroll, keyboard, drag-drop, file-upload, set-viewport, clear-input, emulate-device, collect-web-vitals, block-resources, accessibility-audit
@@ -98,11 +98,6 @@ All notable changes to UATP will be documented in this file.
 - Ad-hoc Playwright/API script execution
 - Built-in code examples and console output
 
-#### Notifications
-- Webhook integrations: Generic, Slack, Discord, Telegram
-- Event filtering: test pass, test failure
-- Configurable per-webhook event types
-
 #### Desktop Application
 - Built with Electron 28 + React 18 + shadcn/ui
 - Cross-platform: Windows, macOS, Linux
@@ -119,6 +114,6 @@ All notable changes to UATP will be documented in this file.
 
 #### Infrastructure
 - NestJS backend with REST API
-- BullMQ + Redis job queue for async test execution
+- In-memory job queue for async test execution
 - PostgreSQL 16 database with TypeORM migrations
 - Configurable API server URL and execution timeout
