@@ -55,19 +55,16 @@ Go to the [**Releases**](https://github.com/Krupinskiy/UATP-releases/releases) p
 ## Screenshots
 
 ### Dashboard
-> Screenshot coming soon
+![Dashboard](docs/images/dashboard.jpg)
 
 ### Template Library
-> Screenshot coming soon
+![Template Library](docs/images/library.jpg)
 
 ### Test Runner
-> Screenshot coming soon
+![Test Runner](docs/images/runner.jpg)
 
 ### Load Testing
-> Screenshot coming soon
-
-### Visual Regression
-> Screenshot coming soon
+![Load Testing](docs/images/load-testing.jpg)
 
 ---
 
